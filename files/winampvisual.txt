@@ -1,0 +1,81 @@
+file -> play url:
+linein://
+
+
+##HOST = '24.253.16.69'
+#HOST = '24.56.16.163'
+#PORT = 10000
+#BUFSIZE = 1024
+#ADDR = (HOST, PORT)
+#
+##tcpCliSock = socket(AF_INET, SOCK_STREAM)
+##tcpCliSock.connect(ADDR)
+#
+#
+#
+#
+#class Application(Frame):
+#    def __init__(self, master):
+#        Frame.__init__(self, master)
+#        #self.grid()
+#        self.create_widgets()
+#        #self.socket()
+#
+#
+#
+#
+#    def callback(self, event):
+#        message = self.entry_field.get()
+#        self.messaging_field.insert(END, "you: " + message + "\n")
+#        self.entry_field.delete(0, END)
+#        #tcpCliSock.send(message)
+#    def host_click(self,event):
+#        print "HOST"
+#
+#
+#    def create_widgets(self):
+#        self.messaging_field = Text(self, width = 50, height = 15, wrap = WORD)
+#        #self.messaging_field.grid(row = 0, column = 1, columnspan = 2, sticky = W)
+#        self.messaging_field.pack()
+#        self.messaging_field.place(x=0,y=0,height=50,width=100)
+#
+#
+#        self.entry_field = Entry(self, width = 50)
+#        #self.entry_field.grid(row = 1, column = 1, columnspan = 2,sticky = W)
+#        self.entry_field.pack()
+#        self.entry_field.place(x=0,y=55,height=50,width=100)
+#        self.entry_field.bind('<Return>', self.callback)
+#
+#        #startBtn = Button(root, text = "Start",command = buttonDown)
+#        #startBtn.pack()
+#        #startBtn.place(x=50,y=50,height=50,width=100)
+#        #buttons.append(startBtn)
+#        self.host_button = Button(self,text="host")
+#        self.host_button.pack()
+#        self.host_button.place(x=0,y=105,height=50,width=100)
+#        self.host_button.bind('<Button-1>', self.host_click)
+#
+#    def add(self, data):
+#        self.messaging_field.insert(END, "server: " + data + "\n")
+#
+#
+#
+#    #def socket(self):
+#    #    def loop0():
+#    #        while 1:
+#    #            data = tcpCliSock.recv(BUFSIZE)
+#    #            if data: self.add(data)
+#    #
+#    #    thread.start_new_thread(loop0, ())
+#
+#
+#
+#
+#
+#root = Tk()
+#root.title("Chat client")
+#root.geometry("550x350")
+#
+#app = Application(root)
+#
+#root.mainloop()
